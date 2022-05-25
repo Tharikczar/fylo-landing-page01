@@ -1,0 +1,273 @@
+
+
+/*### Primary*/
+
+$Very-Dark-Blue: hsl(243, 87%, 12%);
+$Desaturated-Blue: hsl(238, 22%, 44%);
+
+/*.### Accent.....*/
+$Bright-Blue: hsl(224, 93%, 58%);
+$Moderate-Cyan: hsl(170, 45%, 43%);
+
+/*### Neutral*/
+
+ $Light-Grayish-Blue: hsl(240, 75%, 98%);
+ $Light-Gray: hsl(0, 0%, 75%);
+
+ /* my font */
+$font-family: 'Karla', sans-serif;
+$font-family-2: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Raleway:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem 4rem;
+    margin: 0;
+    gap: 0;
+
+
+    .top-nav{
+        overflow: hidden;
+
+        a{
+            text-align: center;
+            padding: .8rem 1.5rem;
+            text-decoration: none;
+            float: right;
+            font-family: $font-family;
+            font-weight: 400;
+
+            &:hover {
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+    .content {
+        
+        float: left;
+        width: 50rem;
+        
+        h1{
+            font-family: $font-family-2;
+            font-weight: 700;
+            padding-top: 6.25rem;
+            color: $Very-Dark-Blue;
+            line-height: 1.8;
+        }
+
+        p {
+            font-family: $font-family;
+            font-weight: 400;
+            line-height: 1.5;
+            color: $Desaturated-Blue;
+        }
+
+        .button {
+            position: relative;
+            font-family: $font-family;
+            font-weight: 400;
+            width: 120px;
+            height: 30px;
+            background-color: $Bright-Blue;
+            color: $Light-Grayish-Blue;
+            top: -26px;
+            padding-top: 5px;
+            left: 279px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 3px;
+
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+                
+            }
+        }        
+
+    }
+
+
+
+    .item-4{
+        height: auto;
+        width: 50rem;
+        float: right;
+        padding-top: 3rem;
+
+    }
+
+    .item-5 {
+        font-family: $font-family-2;
+        
+        margin-top: 12.5rem;
+        padding-left: 2rem;
+        color: $Very-Dark-Blue;
+        background-color: $Light-Grayish-Blue;
+
+        p {
+            font-family: $font-family;
+            font-weight: 400;
+            line-height: 1.5;
+            color: $Very-Dark-Blue;
+
+        }
+
+        .box{
+            width: 25rem;
+            height: 15rem;
+            background-color: white;
+            border-radius: 3px;
+            padding: 1rem;
+
+            .ceo{
+                width: 2.5rem;
+                height: auto;
+                border-radius: 50%;
+            }
+
+            .name {
+                position: relative;
+                font-weight: 700;
+                top: -60px;
+                margin-left: 44px;
+                line-height: 1;
+
+                span {
+                    font-weight: 400;
+                    font-family: $font-family;
+                    font-size: x-small;
+
+                }
+            }
+        }
+
+    }
+        
+        
+    
+
+    .item-6{
+        height: auto;
+        width: 50rem;
+        float: right;
+        margin-top: 12.5rem;
+        background-color: $Light-Grayish-Blue;
+
+    
+
+    } 
+    
+    .item-7 {
+        background-color: $Desaturated-Blue;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+        color: $Light-Grayish-Blue;
+
+        h1 {
+            font-family: $font-family-2;
+
+        }
+        p {
+            font-family: $font-family;
+        }
+
+    }
+    .item-8 {
+        background-color: $Desaturated-Blue;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+
+
+
+        .btn-2{
+            position: relative;
+            font-family: $font-family;
+            font-weight: 400;
+            padding-top: 0.5rem;
+            top: 3rem;
+            width: 200px;
+            height: 40px;
+            background-color: $Bright-Blue;
+            color: $Light-Grayish-Blue;
+            text-align: center;
+            justify-content: center;
+            border-radius: 3px;
+
+
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+                
+            }
+        }
+    }
+
+    .item-9{
+        background-color: $Very-Dark-Blue;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+        color: white;
+        line-height: 2;
+        height: 25rem;
+
+
+
+        .contact {
+            position: relative;
+            padding: 2rem;
+            height: 10rem;
+            width: 12rem;
+            margin-left: 40px;
+        }
+
+        .contact-2 {
+            position: relative;
+            width: 10rem;
+            height: 12rem;
+            left: 28rem;
+            top: -9rem;
+        }
+        
+    }
+
+    .item-10 {
+        background-color: $Very-Dark-Blue;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+        color: white;
+        line-height: 2;
+        height: 25rem;
+
+        .contact-3 {
+            position: relative;
+            padding: 2rem;
+            height: 10rem;
+            width: 12rem;
+            margin-left: 40px;
+            top: 3rem;
+        }
+    }
+
+    ul {
+        &:hover{
+            cursor: pointer;
+            color: $Desaturated-Blue;
+        }
+    }
+
+}
+

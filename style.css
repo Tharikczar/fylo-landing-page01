@@ -1,0 +1,168 @@
+/*### Primary*/
+/*.### Accent.....*/
+/*### Neutral*/
+/* my font */
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Raleway:wght@700&display=swap");
+* {
+  box-sizing: border-box; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem 4rem;
+  margin: 0;
+  gap: 0; }
+  .grid-container .top-nav {
+    overflow: hidden; }
+    .grid-container .top-nav a {
+      text-align: center;
+      padding: .8rem 1.5rem;
+      text-decoration: none;
+      float: right;
+      font-family: "Karla", sans-serif;
+      font-weight: 400; }
+      .grid-container .top-nav a:hover {
+        color: black;
+        cursor: pointer; }
+  .grid-container .content {
+    float: left;
+    width: 50rem; }
+    .grid-container .content h1 {
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      padding-top: 6.25rem;
+      color: #070439;
+      line-height: 1.8; }
+    .grid-container .content p {
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #585989; }
+    .grid-container .content .button {
+      position: relative;
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
+      width: 120px;
+      height: 30px;
+      background-color: #3065f8;
+      color: #f6f6fe;
+      top: -26px;
+      padding-top: 5px;
+      left: 279px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 3px; }
+      .grid-container .content .button:hover {
+        cursor: pointer;
+        opacity: 0.8; }
+  .grid-container .item-4 {
+    height: auto;
+    width: 50rem;
+    float: right;
+    padding-top: 3rem; }
+  .grid-container .item-5 {
+    font-family: "Raleway", sans-serif;
+    margin-top: 12.5rem;
+    padding-left: 2rem;
+    color: #070439;
+    background-color: #f6f6fe; }
+    .grid-container .item-5 p {
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #070439; }
+    .grid-container .item-5 .box {
+      width: 25rem;
+      height: 15rem;
+      background-color: white;
+      border-radius: 3px;
+      padding: 1rem; }
+      .grid-container .item-5 .box .ceo {
+        width: 2.5rem;
+        height: auto;
+        border-radius: 50%; }
+      .grid-container .item-5 .box .name {
+        position: relative;
+        font-weight: 700;
+        top: -60px;
+        margin-left: 44px;
+        line-height: 1; }
+        .grid-container .item-5 .box .name span {
+          font-weight: 400;
+          font-family: "Karla", sans-serif;
+          font-size: x-small; }
+  .grid-container .item-6 {
+    height: auto;
+    width: 50rem;
+    float: right;
+    margin-top: 12.5rem;
+    background-color: #f6f6fe; }
+  .grid-container .item-7 {
+    background-color: #585989;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    color: #f6f6fe; }
+    .grid-container .item-7 h1 {
+      font-family: "Raleway", sans-serif; }
+    .grid-container .item-7 p {
+      font-family: "Karla", sans-serif; }
+  .grid-container .item-8 {
+    background-color: #585989;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem; }
+    .grid-container .item-8 .btn-2 {
+      position: relative;
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
+      padding-top: 0.5rem;
+      top: 3rem;
+      width: 200px;
+      height: 40px;
+      background-color: #3065f8;
+      color: #f6f6fe;
+      text-align: center;
+      justify-content: center;
+      border-radius: 3px; }
+      .grid-container .item-8 .btn-2:hover {
+        cursor: pointer;
+        opacity: 0.8; }
+  .grid-container .item-9 {
+    background-color: #070439;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    color: white;
+    line-height: 2;
+    height: 25rem; }
+    .grid-container .item-9 .contact {
+      position: relative;
+      padding: 2rem;
+      height: 10rem;
+      width: 12rem;
+      margin-left: 40px; }
+    .grid-container .item-9 .contact-2 {
+      position: relative;
+      width: 10rem;
+      height: 12rem;
+      left: 28rem;
+      top: -9rem; }
+  .grid-container .item-10 {
+    background-color: #070439;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    color: white;
+    line-height: 2;
+    height: 25rem; }
+    .grid-container .item-10 .contact-3 {
+      position: relative;
+      padding: 2rem;
+      height: 10rem;
+      width: 12rem;
+      margin-left: 40px;
+      top: 3rem; }
+  .grid-container ul:hover {
+    cursor: pointer;
+    color: #585989; }
